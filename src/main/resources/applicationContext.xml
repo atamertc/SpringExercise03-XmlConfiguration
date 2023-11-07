@@ -7,9 +7,9 @@
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
     <!-- bean definitions here -->
 
-    <bean id="mygame" class="com.bilgeadam.xml.Mario" > </bean>
+    <bean id="mygame" class="com.atamertc.xml.Mario" > </bean>
 
-    <bean id="gamerunner" class="com.bilgeadam.xml.GameRunner">
+    <bean id="gamerunner" class="com.atamertc.xml.GameRunner">
         <constructor-arg  ref="mygame" ></constructor-arg>
     </bean>
 
